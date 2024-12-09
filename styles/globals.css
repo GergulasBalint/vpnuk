@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-cyber {
+  font-family: 'Orbitron', sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: 222 84% 98%;
+    --foreground: 222 84% 4%;
+    --primary: 222 84% 50%;
+    --muted: 222 14% 40%;
+    --border: 222 14% 90%;
+  }
+
+  .dark {
+    --background: 222 84% 4%;
+    --foreground: 222 84% 98%;
+    --primary: 222 84% 50%;
+    --muted: 222 14% 60%;
+    --border: 222 14% 10%;
+  }
+} 
